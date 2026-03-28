@@ -2,7 +2,7 @@
 
 Repositório com um estudo consolidado em SQL baseado no curso **SQL para Análise de Dados e Data Science** da Data Science Academy (DSA).
 
-![Status](https://img.shields.io/badge/Status-Em%20andamento-yellow)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
 ![Curso](https://img.shields.io/badge/Curso-DSA-orange)
 
