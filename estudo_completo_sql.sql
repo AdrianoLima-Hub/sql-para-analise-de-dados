@@ -1,13 +1,7 @@
--- ============================================================
--- ESTUDO COMPLETO DE SQL PARA ANALISE DE DADOS
--- Baseado no curso da Data Science Academy (DSA)
--- Banco de Dados: PostgreSQL
--- Autor: AdrainoLima-Hub
--- ============================================================
+
 
 
 -- ============================================================
--- CAP 3 - PRIMEIROS PASSOS COM LINGUAGEM SQL
 -- DDL: Criacao de banco e tabelas | DML: Insercao de dados
 -- ============================================================
 
@@ -73,7 +67,6 @@ INSERT INTO estudo.vendas (id_cliente, id_produto, quantidade, data_venda, valor
 
 
 -- ============================================================
--- CAP 4 - FUNDAMENTOS DA LINGUAGEM SQL - PARTE 1
 -- SELECT, WHERE, operadores, filtros
 -- ============================================================
 
@@ -116,7 +109,6 @@ SELECT * FROM estudo.produtos ORDER BY preco DESC LIMIT 3;
 
 
 -- ============================================================
--- CAP 5 - FUNDAMENTOS DA LINGUAGEM SQL - PARTE 2
 -- Funcoes de agregacao, GROUP BY, HAVING
 -- ============================================================
 
@@ -153,7 +145,7 @@ ORDER BY total_clientes DESC;
 
 
 -- ============================================================
--- CAP 6 - CATEGORIZACAO, CODIFICACAO E BINARIZACAO
+--  CATEGORIZACAO, CODIFICACAO E BINARIZACAO
 -- CASE WHEN
 -- ============================================================
 
@@ -195,7 +187,7 @@ FROM estudo.clientes;
 
 
 -- ============================================================
--- CAP 7 e 8 - JUNCAO DE TABELAS (JOINs)
+-- JUNCAO DE TABELAS (JOINs)
 -- INNER, LEFT, RIGHT, FULL, CROSS JOIN
 -- ============================================================
 
@@ -269,7 +261,7 @@ ORDER BY receita_total DESC;
 
 
 -- ============================================================
--- CAP 9 e 10 - AGREGACAO PARA ANALISE DE DADOS
+-- AGREGACAO PARA ANALISE DE DADOS
 -- ============================================================
 
 -- Receita mensal
@@ -302,7 +294,7 @@ ORDER BY receita DESC;
 
 
 -- ============================================================
--- CAP 11 e 12 - WINDOW FUNCTIONS E SUBCONSULTAS
+-- WINDOW FUNCTIONS E SUBCONSULTAS
 -- ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, NTILE, CTE
 -- ============================================================
 
@@ -385,7 +377,7 @@ WHERE preco_medio > 200;
 
 
 -- ============================================================
--- CAP 13 - ANALISE EXPLORATORIA DE DADOS (EDA) COM SQL
+-- ANALISE EXPLORATORIA DE DADOS (EDA) COM SQL
 -- ============================================================
 
 SELECT COUNT(*) AS total_clientes FROM estudo.clientes;
@@ -425,7 +417,7 @@ LIMIT 3;
 
 
 -- ============================================================
--- CAP 14, 15 e 16 - LIMPEZA E TRANSFORMACAO DE DADOS
+-- LIMPEZA E TRANSFORMACAO DE DADOS
 -- ============================================================
 
 -- Registros com campos nulos
@@ -503,7 +495,7 @@ SELECT * FROM vendas_analisadas ORDER BY valor_total DESC;
 
 
 -- ============================================================
--- CAP 17 - ANALISE DE DADOS E PROCESSO DE SELECAO
+-- ANALISE DE DADOS E PROCESSO DE SELECAO
 -- Perguntas de negocio respondidas com SQL
 -- ============================================================
 
@@ -544,7 +536,7 @@ GROUP BY mes ORDER BY mes;
 
 
 -- ============================================================
--- CAP 18 e 19 - PROGRAMACAO NO BANCO DE DADOS
+-- PROGRAMACAO NO BANCO DE DADOS
 -- Views, Functions, Stored Procedures
 -- ============================================================
 
@@ -601,7 +593,7 @@ CALL estudo.inserir_cliente('Iago Martins', 'iago@email.com', 'Natal', 'RN');
 
 
 -- ============================================================
--- CAP 20 e 21 - OTIMIZACAO DE CONSULTAS SQL
+-- OTIMIZACAO DE CONSULTAS SQL
 -- EXPLAIN, ANALYZE, Indices
 -- ============================================================
 
@@ -628,7 +620,6 @@ WHERE EXISTS (
 
 
 -- ============================================================
--- CAP 22 - PROJETO ESPECIAL: ANALISE COMPLETA DE NEGOCIO
 -- Case real de Analista de Dados
 -- ============================================================
 
@@ -665,5 +656,5 @@ FROM rfm
 ORDER BY valor_total DESC;
 
 -- ============================================================
--- FIM DO ESTUDO - SQL para Analise de Dados - DSA
+-- FIM DO ESTUDO - SQL para Analise de Dados 
 -- ============================================================
