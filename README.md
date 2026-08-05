@@ -1,7 +1,5 @@
 # 📊 Estudo Completo de SQL para Análise de Dados
 
-Repositório com um estudo consolidado em SQL baseado no curso **SQL para Análise de Dados e Data Science** da Data Science Academy (DSA).
-
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
 ![Curso](https://img.shields.io/badge/Curso-DSA-orange)
@@ -30,7 +28,3 @@ Consolidar em um único arquivo SQL todos os conceitos estudados no curso, desde
 11. Limpeza e Transformação de Dados
 12. Programação no Banco (Views, Stored Procedures, Functions, Triggers)
 13. Otimização de Consultas (EXPLAIN, ANALYZE, Índices)
-
-## 📚 Baseado no curso
-SQL para Análise de Dados e Data Science — Data Science Academy (DSA)
-23 capítulos | PostgreSQL | pgAdmin 4
